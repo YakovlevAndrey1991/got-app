@@ -11,6 +11,7 @@ const App = () => {
         <> 
             <Container>
                 <Header />
+                <Header />
             </Container>
             <Container>
                 <Row>
