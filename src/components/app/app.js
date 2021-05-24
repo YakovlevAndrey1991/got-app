@@ -7,16 +7,19 @@ import CharDetails from '../charDetails';
 
 
 const App = () => {
+
     return (
         <> 
             <Container>
-                <Header />
                 <Header />
             </Container>
             <Container>
                 <Row>
                     <Col lg={{size: 5, offset: 0}}>
-                        <RandomChar/>
+                        <button>
+                            hideRandomChar();
+                        </button>
+                        <RandomChar />
                     </Col>
                 </Row>
                 <Row>
