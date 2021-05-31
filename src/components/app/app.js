@@ -16,9 +16,6 @@ const App = () => {
             <Container>
                 <Row>
                     <Col lg={{size: 5, offset: 0}}>
-                        <button>
-                            hideRandomChar();
-                        </button>
                         <RandomChar />
                     </Col>
                 </Row>
